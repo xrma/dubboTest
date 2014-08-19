@@ -15,7 +15,6 @@ import com.dubbo.provider.pojo.User;
  * @ReviewTime: 
  * @Company: CFCA
  */
-
 public interface DubboService {
     public String sayHello(String name);
     public List<User> getUser();
